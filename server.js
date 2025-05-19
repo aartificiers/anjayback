@@ -13,8 +13,8 @@ app.disable("x-powered-by");
 app.use(express.json());
 app.use(express.urlencoded());
 const corsOptions={
-  // origin: "https://srbosss.com",
-  origin:"http://localhost:5173",
+  origin: "https://anjayback.onrender.com",
+  // origin:"http://localhost:5173",
   // origin:"*",
   credentials: true,
   allowedHeaders: [
