@@ -13,7 +13,7 @@ app.disable("x-powered-by");
 app.use(express.json());
 app.use(express.urlencoded());
 const corsOptions={
-  origin: "https://anjayback.onrender.com",
+  origin: "https://anjaythm.netlify.app",
   // origin:"http://localhost:5173",
   // origin:"*",
   credentials: true,
