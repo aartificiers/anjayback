@@ -12,12 +12,10 @@ const slotsSchema = new mongoose.Schema({
     },
     venue: {
         type: String,
-        unique: true,
         required: true
     },
     city: {
         type: String,
-        unique: true,
         required: true
     },
     client: {
